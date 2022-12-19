@@ -1,0 +1,31 @@
+.container {
+  padding: 1rem;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #000;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: rgb(204, 232, 223);
+}
+.name {
+  text-align: center;
+  font-weight: bold;
+  padding: 0.5rem 0;
+  font-size: 25px;
+}
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+}
+.types {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0.5rem 0;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: rgb(196, 190, 190);
+  color: cadetblue;
+}
